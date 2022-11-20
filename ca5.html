@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ca5.css" />
+    <title>Student Form</title>
+  </head>
+  <body>
+    <div class="container1" id="container1">
+      <h3>Student Detail Entry</h3>
+      <form action="" method="get" autocomplete="off">
+        <div class="row">
+          <div class="col-1">
+            <label>Student ID : </label>
+          </div>
+          <div class="col-2">
+            <input
+              type="text"
+              id="stdID"
+              name="stdID"
+              placeholder="STUDENT ID"
+            />
+            <small></small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <label for="stdName"> Student Name :* </label>
+          </div>
+          <div class="col-2">
+            <input
+              type="text"
+              id="stdName"
+              name="stdName"
+              placeholder="STUDENT NAME"
+            />
+            <small></small>
+          </div>
+        </div>
+
+        <br />
+        <div class="row form-action-buttons">
+          <input type="submit" value="ADD" />
+        </div>
+      </form>
+    </div>
+    <hr />
+
+    <script src="ca5.js"></script>
+  </body>
+</html>
